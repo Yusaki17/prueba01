@@ -4,13 +4,10 @@ import org.hibernate.service.spi.ServiceException;
 import org.springframework.stereotype.Service;
 import pe.edu.upeu.pantoja.controller.exceptions.ResourceNotFoundException;
 import pe.edu.upeu.pantoja.dto.ParticipaDTO;
-import pe.edu.upeu.pantoja.entity.Clientes;
 import pe.edu.upeu.pantoja.entity.Colaboradores;
 import pe.edu.upeu.pantoja.entity.Participa;
 import pe.edu.upeu.pantoja.entity.Proyectos;
-import pe.edu.upeu.pantoja.mapper.ClientesMapper;
 import pe.edu.upeu.pantoja.mapper.ParticipaMapper;
-import pe.edu.upeu.pantoja.repository.ClientesRepository;
 import pe.edu.upeu.pantoja.repository.ColaboradoresRepository;
 import pe.edu.upeu.pantoja.repository.ParticipaRepository;
 import pe.edu.upeu.pantoja.repository.ProyectosRepository;
@@ -57,12 +54,12 @@ public class ParticipaServiceImpl implements ParticipaService {
             if(participaDTO.getProyectoId()!=null){
                 Proyectos proyectos = proyectosRepository.findById(participaDTO.getProyectoId())
                         .orElseThrow(()-> new ResourceNotFoundException("proyectos no encontrado con ID "+aLong));
-                existente.setProyectosid(proyectos);
+                existente.setProyectoId(proyectos);
             }
             if(participaDTO.getColaboradorId()!=null){
                 Colaboradores colaboradores = colaboradoresRepository.findById(participaDTO.getColaboradorId())
                         .orElseThrow(()-> new ResourceNotFoundException("colaboradores no encontrado con ID "+aLong));
-                existente.setColaboradoresid(colaboradores);
+                existente.setColaboradorId(colaboradores);
 
             }
 

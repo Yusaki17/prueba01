@@ -13,7 +13,7 @@ import pe.edu.upeu.pantoja.service.service.ParticipaService;
 import java.util.List;
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/clientes")
+@RequestMapping("/api/v1/participa")
 public class ParticipaController {
     private final ParticipaService participaService;
 

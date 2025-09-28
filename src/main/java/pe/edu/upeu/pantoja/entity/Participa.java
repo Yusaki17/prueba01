@@ -19,11 +19,11 @@ public class Participa {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "PROYECTO_ID", nullable = false)
-    private Proyectos proyectosid;
+    @JoinColumn(name = "PROYECTO_ID")
+    private Proyectos proyectoId;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "COLABORADORES_ID", nullable = false)
-    private Colaboradores colaboradoresid;
+    @JoinColumn(name = "COLABORADOR_ID")
+    private Colaboradores colaboradorId;
 }
 

@@ -13,7 +13,7 @@ import pe.edu.upeu.pantoja.service.service.ProyectosService;
 import java.util.List;
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/clientes")
+@RequestMapping("/api/v1/proyectos")
 public class ProyectosController {
     private final ProyectosService proyectosService;
 

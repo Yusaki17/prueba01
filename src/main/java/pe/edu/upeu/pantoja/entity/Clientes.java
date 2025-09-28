@@ -17,11 +17,11 @@ public class Clientes {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long id;
-    @Column(name = "TELEFONO", unique = true, nullable = false, length = 45)
+    @Column(name = "TELEFONO")
     private String telefono;
-    @Column(name = "DOMICILIO", unique = true, nullable = false, length = 45)
+    @Column(name = "DOMICILIO")
     private String domicilio;
-    @Column(name = "RAZON_SOCIAL", unique = true, nullable = false, length = 45)
+    @Column(name = "RAZONSOCIAL")
     private String razonsocial;
 
 }

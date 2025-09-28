@@ -17,16 +17,16 @@ public class Colaboradores {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long id;
-    @Column(name = "NIF", unique = true, nullable = false, length = 45)
+    @Column(name = "NIF")
     private String nif;
-    @Column(name = "NOMBRE", unique = true, nullable = false, length = 45)
+    @Column(name = "NOMBRE")
     private String nombre;
-    @Column(name = "DOMICILIO", unique = true, nullable = false, length = 45)
+    @Column(name = "DOMICILIO")
     private String domicilio;
-    @Column(name = "TELEFONO", unique = true, nullable = false, length = 45)
+    @Column(name = "TELEFONO")
     private String telefono;
-    @Column(name = "BANCO", unique = true, nullable = false, length = 45)
+    @Column(name = "BANCO")
     private String banco;
-    @Column(name = "NUM_CUENTA", unique = true, nullable = false, length = 45)
+    @Column(name = "NUMCUENTA")
     private String numCuenta;
 }

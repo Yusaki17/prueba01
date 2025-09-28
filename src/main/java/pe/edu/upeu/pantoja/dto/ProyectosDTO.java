@@ -5,7 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -13,9 +16,8 @@ public class ProyectosDTO {
     private Long id;
     private String descripcion;
     private BigDecimal cuentas;
-    private LocalDateTime fechaInicio;
-    private LocalDateTime fechaFin;
-
+    private LocalDate fechaInicio;
+    private LocalDate fechaFin;
     private Long clienteId;
-
+    private List<ParticipaDTO> participa;
 }

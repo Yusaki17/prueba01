@@ -3,17 +3,14 @@ package pe.edu.upeu.pantoja.service.impl;
 import org.hibernate.service.spi.ServiceException;
 import org.springframework.stereotype.Service;
 import pe.edu.upeu.pantoja.controller.exceptions.ResourceNotFoundException;
-import pe.edu.upeu.pantoja.controller.exceptions.ResourceValidationException;
 import pe.edu.upeu.pantoja.dto.ProyectosDTO;
 import pe.edu.upeu.pantoja.entity.Clientes;
 import pe.edu.upeu.pantoja.entity.Proyectos;
-import pe.edu.upeu.pantoja.mapper.ClientesMapper;
 import pe.edu.upeu.pantoja.mapper.ProyectosMapper;
 import pe.edu.upeu.pantoja.repository.ClientesRepository;
 import pe.edu.upeu.pantoja.repository.ProyectosRepository;
 import pe.edu.upeu.pantoja.service.service.ProyectosService;
 
-import java.math.BigDecimal;
 import java.util.List;
 @Service
 public class ProyectosServiceImpl implements ProyectosService {
@@ -54,7 +51,7 @@ public class ProyectosServiceImpl implements ProyectosService {
             if(proyectosDTO.getClienteId()!=null){
                 Clientes clientes = clientesRepository.findById(proyectosDTO.getClienteId())
                         .orElseThrow(()-> new ResourceNotFoundException("Cliente no encontrado con ID "+aLong));
-                existente.setClienteid(clientes);
+                existente.setClienteId(clientes);
             }
             Proyectos actualizado = proyectosRepository.save(existente);
             return proyectosMapper.toDTO(actualizado);

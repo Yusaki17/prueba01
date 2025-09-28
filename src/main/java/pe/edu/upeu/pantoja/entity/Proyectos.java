@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,20 +21,20 @@ public class Proyectos {
     @Column(name = "ID")
     private Long id;
 
-    @Column(name = "Descripcion", unique = true, nullable = false, length = 45)
+    @Column(name = "DESCRIPCION")
     private String descripcion;
 
-    @Column(name = "CUENTAS", nullable = false)
+    @Column(name = "CUENTAS")
     private BigDecimal cuentas;
 
-    @Column(name = "FECHA_INICIO", nullable = false)
-    private LocalDateTime fechaInicio;
+    @Column(name = "FECHA_INICIO")
+    private LocalDate fechaInicio;
 
-    @Column(name = "FECHA_FIN", nullable = false)
-    private LocalDateTime fechaFin;
+    @Column(name = "FECHA_FIN")
+    private LocalDate fechaFin;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "CLIENTE_ID", nullable = false)
-    private Clientes clienteid;
+    @JoinColumn(name = "CLIENTE_ID")
+    private Clientes clienteId;
 }
 
