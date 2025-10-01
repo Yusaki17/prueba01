@@ -3,13 +3,9 @@ package pe.edu.upeu.pantoja.mapper;
 import org.mapstruct.Mapper;
 import pe.edu.upeu.pantoja.dto.ColaboradoresDTO;
 import pe.edu.upeu.pantoja.entity.Colaboradores;
+import pe.edu.upeu.pantoja.mapper.base.BaseMapper;
 
-import java.util.List;
+@Mapper(componentModel = "spring", uses = {ParticipaMapper.class})
+public interface ColaboradoresMapper extends BaseMapper<Colaboradores,ColaboradoresDTO> {
 
-@Mapper(componentModel = "spring")
-public interface ColaboradoresMapper   {
-    ColaboradoresDTO toDTO(Colaboradores entity);
-    Colaboradores toEntity(ColaboradoresDTO dto);
-    List<ColaboradoresDTO> toDTOs(List<Colaboradores> list);
-    List<Colaboradores> toEntityList(List<ColaboradoresDTO> list);
 }

@@ -4,10 +4,10 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import pe.edu.upeu.pantoja.dto.ParticipaDTO;
 import pe.edu.upeu.pantoja.entity.Participa;
-import java.util.List;
+import pe.edu.upeu.pantoja.mapper.base.BaseMapper;
 
 @Mapper(componentModel = "spring")
-public interface ParticipaMapper {
+public interface ParticipaMapper extends BaseMapper<Participa,ParticipaDTO> {
 
     @Mapping(source = "proyectoId.id", target = "proyectoId")
     @Mapping(source = "colaboradorId.id", target = "colaboradorId")
@@ -17,6 +17,4 @@ public interface ParticipaMapper {
     @Mapping(source = "colaboradorId", target = "colaboradorId.id")
     Participa toEntity(ParticipaDTO dto);
 
-    List<ParticipaDTO> toDTOs(List<Participa> list);
-    List<Participa> toEntityList(List<ParticipaDTO> list);
 }

@@ -14,5 +14,5 @@ public class ClientesDTO {
     private String telefono;
     private String domicilio;
     private String razonsocial;
-    private List<ProyectosDTO> proyectos;
+
 }

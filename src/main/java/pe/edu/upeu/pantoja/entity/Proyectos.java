@@ -1,5 +1,6 @@
 package pe.edu.upeu.pantoja.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,6 +9,8 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -36,5 +39,9 @@ public class Proyectos {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "CLIENTE_ID")
     private Clientes clienteId;
+
+    @OneToMany(mappedBy = "proyectoId", cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<Participa> participa = new ArrayList<>();
 }
 

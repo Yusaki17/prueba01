@@ -1,10 +1,14 @@
 package pe.edu.upeu.pantoja.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -29,4 +33,7 @@ public class Colaboradores {
     private String banco;
     @Column(name = "NUMCUENTA")
     private String numCuenta;
+    @OneToMany(mappedBy = "colaboradorId", cascade = CascadeType.ALL, orphanRemoval = true,fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<Participa> participa = new ArrayList<>();
 }
