@@ -36,7 +36,12 @@ public class ColaboradoresServiceImpl implements ColaboradoresService {
     public ColaboradoresDTO update(Long aLong, ColaboradoresDTO colaboradoresDTO) throws ServiceException {
         try {
             Colaboradores colaboradores = colaboradoresRepository.findById(aLong).orElseThrow(() -> new ResourceNotFoundException("colaboradores no encontrados"));
+            colaboradores.setNif(colaboradoresDTO.getNif());
+            colaboradores.setNombre(colaboradoresDTO.getNombre());
+            colaboradores.setDomicilio(colaboradoresDTO.getDomicilio());
             colaboradores.setTelefono(colaboradoresDTO.getTelefono());
+            colaboradores.setBanco(colaboradoresDTO.getBanco());
+            colaboradores.setNumCuenta(colaboradoresDTO.getNumCuenta());
             Colaboradores colaboradoresUpdate = colaboradoresRepository.save(colaboradores);
             return colaboradoresMapper.toDTO(colaboradoresUpdate);
         } catch (ResourceNotFoundException e) {

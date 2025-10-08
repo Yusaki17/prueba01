@@ -1,20 +1,20 @@
-2025-10-01T15:23:14.556+02:00  INFO 11868 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 11868 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T15:23:14.561+02:00  INFO 11868 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T15:23:21.379+02:00  INFO 11868 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T15:23:21.657+02:00  INFO 11868 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 249 ms. Found 4 JPA repository interfaces.
-2025-10-01T15:23:23.857+02:00  INFO 11868 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2025-10-01T15:23:23.898+02:00  INFO 11868 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T15:23:23.898+02:00  INFO 11868 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T15:23:23.973+02:00  INFO 11868 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T15:23:23.973+02:00  INFO 11868 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9061 ms
-2025-10-01T15:23:24.438+02:00  INFO 11868 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T15:23:24.538+02:00  INFO 11868 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T15:23:24.588+02:00  INFO 11868 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T15:23:25.091+02:00  INFO 11868 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T15:23:25.163+02:00  INFO 11868 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T15:23:33.081+02:00  INFO 11868 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1c7cd434
-2025-10-01T15:23:33.083+02:00  INFO 11868 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T15:23:34.749+02:00  INFO 11868 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-08T04:11:00.714+02:00  INFO 6456 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 6456 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
+2025-10-08T04:11:00.731+02:00  INFO 6456 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-08T04:11:03.113+02:00  INFO 6456 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-08T04:11:03.307+02:00  INFO 6456 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 4 JPA repository interfaces.
+2025-10-08T04:11:04.521+02:00  INFO 6456 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-08T04:11:04.602+02:00  INFO 6456 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-08T04:11:04.602+02:00  INFO 6456 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-08T04:11:04.701+02:00  INFO 6456 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-08T04:11:04.702+02:00  INFO 6456 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3841 ms
+2025-10-08T04:11:05.340+02:00  INFO 6456 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-08T04:11:05.441+02:00  INFO 6456 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-08T04:11:05.481+02:00  INFO 6456 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-08T04:11:05.865+02:00  INFO 6456 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-08T04:11:05.945+02:00  INFO 6456 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-08T04:11:06.653+02:00  INFO 6456 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@376b5cb2
+2025-10-08T04:11:06.655+02:00  INFO 6456 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-08T04:11:07.232+02:00  INFO 6456 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 21.3
@@ -22,70 +22,35 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-01T15:23:35.189+02:00 ERROR 11868 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'pe.edu.upeu.pantoja.entity.Colaboradores.participa' is 'mappedBy' a property named 'colaboradores' which does not exist in the target entity 'pe.edu.upeu.pantoja.entity.Participa'
-2025-10-01T15:23:35.190+02:00  WARN 11868 --- [pantoja] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'pe.edu.upeu.pantoja.entity.Colaboradores.participa' is 'mappedBy' a property named 'colaboradores' which does not exist in the target entity 'pe.edu.upeu.pantoja.entity.Participa'
-2025-10-01T15:23:35.190+02:00  INFO 11868 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-01T15:23:35.336+02:00  INFO 11868 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-01T15:23:35.364+02:00  INFO 11868 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-10-01T15:23:35.403+02:00  INFO 11868 --- [pantoja] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-01T15:23:35.584+02:00 ERROR 11868 --- [pantoja] [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'pe.edu.upeu.pantoja.entity.Colaboradores.participa' is 'mappedBy' a property named 'colaboradores' which does not exist in the target entity 'pe.edu.upeu.pantoja.entity.Participa'
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.11.jar:6.2.11]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.11.jar:6.2.11]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.6.jar:3.5.6]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.6.jar:3.5.6]
-	at pe.edu.upeu.pantoja.PantojaApplication.main(PantojaApplication.java:10) ~[classes/:na]
-Caused by: org.hibernate.AnnotationException: Collection 'pe.edu.upeu.pantoja.entity.Colaboradores.participa' is 'mappedBy' a property named 'colaboradores' which does not exist in the target entity 'pe.edu.upeu.pantoja.entity.Participa'
-	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.29.Final.jar:6.6.29.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.11.jar:6.2.11]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.11.jar:6.2.11]
-	... 15 common frames omitted
-
-2025-10-01T15:32:34.616+02:00  INFO 6372 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 6372 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T15:32:34.618+02:00  INFO 6372 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T15:32:37.206+02:00  INFO 6372 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T15:32:37.341+02:00  INFO 6372 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 4 JPA repository interfaces.
-2025-10-01T15:32:38.235+02:00  INFO 6372 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2025-10-01T15:32:38.253+02:00  INFO 6372 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T15:32:38.253+02:00  INFO 6372 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T15:32:38.311+02:00  INFO 6372 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T15:32:38.312+02:00  INFO 6372 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3507 ms
-2025-10-01T15:32:38.968+02:00  INFO 6372 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T15:32:39.088+02:00  INFO 6372 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T15:32:39.138+02:00  INFO 6372 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T15:32:39.585+02:00  INFO 6372 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T15:32:39.683+02:00  INFO 6372 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T15:32:40.584+02:00  INFO 6372 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@32dcfeea
-2025-10-01T15:32:40.587+02:00  INFO 6372 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T15:32:41.266+02:00  INFO 6372 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-08T04:11:08.821+02:00  INFO 6456 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-08T04:11:09.001+02:00  INFO 6456 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:11:09.884+02:00  INFO 6456 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-08T04:11:09.891+02:00  INFO 6456 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 10.458 seconds (process running for 11.98)
+2025-10-08T04:15:20.442+02:00  INFO 6456 --- [pantoja] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-08T04:15:20.443+02:00  INFO 6456 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-08T04:15:20.444+02:00  INFO 6456 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-08T04:24:46.628+02:00  INFO 6456 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-08T04:24:46.636+02:00  INFO 6456 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-08T04:24:46.668+02:00  INFO 6456 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:24:46.691+02:00  INFO 6456 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-08T04:24:46.703+02:00  INFO 6456 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-08T04:24:58.045+02:00  INFO 1636 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 1636 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
+2025-10-08T04:24:58.048+02:00  INFO 1636 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-08T04:24:59.967+02:00  INFO 1636 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-08T04:25:00.068+02:00  INFO 1636 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2025-10-08T04:25:01.012+02:00  INFO 1636 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-08T04:25:01.095+02:00  INFO 1636 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-08T04:25:01.096+02:00  INFO 1636 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-08T04:25:01.184+02:00  INFO 1636 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-08T04:25:01.185+02:00  INFO 1636 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3046 ms
+2025-10-08T04:25:02.032+02:00  INFO 1636 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-08T04:25:02.194+02:00  INFO 1636 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-08T04:25:02.258+02:00  INFO 1636 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-08T04:25:02.805+02:00  INFO 1636 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-08T04:25:02.939+02:00  INFO 1636 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-08T04:25:03.691+02:00  INFO 1636 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@32dcfeea
+2025-10-08T04:25:03.693+02:00  INFO 1636 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-08T04:25:04.347+02:00  INFO 1636 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 21.3
@@ -93,31 +58,35 @@ Caused by: org.hibernate.AnnotationException: Collection 'pe.edu.upeu.pantoja.en
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-01T15:32:42.837+02:00  INFO 6372 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-01T15:32:44.726+02:00  INFO 6372 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T15:32:45.550+02:00  INFO 6372 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path '/'
-2025-10-01T15:32:45.559+02:00  INFO 6372 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 12.625 seconds (process running for 14.846)
-2025-10-01T15:36:25.502+02:00  INFO 6372 --- [pantoja] [http-nio-9191-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-01T15:36:25.502+02:00  INFO 6372 --- [pantoja] [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-01T15:36:25.503+02:00  INFO 6372 --- [pantoja] [http-nio-9191-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-01T17:40:08.325+02:00  WARN 6372 --- [pantoja] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46m27s755ms205µs100ns).
-2025-10-01T17:57:18.586+02:00  INFO 5632 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 5632 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T17:57:18.589+02:00  INFO 5632 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T17:57:21.660+02:00  INFO 5632 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T17:57:21.805+02:00  INFO 5632 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 4 JPA repository interfaces.
-2025-10-01T17:57:22.754+02:00  INFO 5632 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
-2025-10-01T17:57:22.785+02:00  INFO 5632 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T17:57:22.786+02:00  INFO 5632 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T17:57:22.848+02:00  INFO 5632 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T17:57:22.849+02:00  INFO 5632 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3894 ms
-2025-10-01T17:57:23.501+02:00  INFO 5632 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T17:57:23.583+02:00  INFO 5632 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T17:57:23.649+02:00  INFO 5632 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T17:57:24.191+02:00  INFO 5632 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T17:57:24.256+02:00  INFO 5632 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T17:57:25.008+02:00  INFO 5632 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@661e279d
-2025-10-01T17:57:25.009+02:00  INFO 5632 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T17:57:26.525+02:00  INFO 5632 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-08T04:25:06.069+02:00  INFO 1636 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-08T04:25:06.403+02:00  INFO 1636 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:25:07.012+02:00  INFO 1636 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-08T04:25:07.019+02:00  INFO 1636 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 9.925 seconds (process running for 11.395)
+2025-10-08T04:25:10.568+02:00  INFO 1636 --- [pantoja] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-08T04:25:10.568+02:00  INFO 1636 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-08T04:25:10.569+02:00  INFO 1636 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-08T04:33:45.868+02:00  INFO 1636 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-08T04:33:45.876+02:00  INFO 1636 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-08T04:33:45.932+02:00  INFO 1636 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:33:45.997+02:00  INFO 1636 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-08T04:33:46.020+02:00  INFO 1636 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-08T04:34:17.174+02:00  INFO 404 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 404 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
+2025-10-08T04:34:17.177+02:00  INFO 404 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-08T04:34:19.393+02:00  INFO 404 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-08T04:34:19.555+02:00  INFO 404 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 4 JPA repository interfaces.
+2025-10-08T04:34:20.547+02:00  INFO 404 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-08T04:34:20.623+02:00  INFO 404 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-08T04:34:20.624+02:00  INFO 404 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-08T04:34:20.694+02:00  INFO 404 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-08T04:34:20.695+02:00  INFO 404 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3393 ms
+2025-10-08T04:34:21.555+02:00  INFO 404 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-08T04:34:21.667+02:00  INFO 404 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-08T04:34:21.706+02:00  INFO 404 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-08T04:34:22.094+02:00  INFO 404 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-08T04:34:22.145+02:00  INFO 404 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-08T04:34:23.029+02:00  INFO 404 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@64dfb31d
+2025-10-08T04:34:23.031+02:00  INFO 404 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-08T04:34:23.548+02:00  INFO 404 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 21.3
@@ -125,46 +94,35 @@ Caused by: org.hibernate.AnnotationException: Collection 'pe.edu.upeu.pantoja.en
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-01T17:57:28.073+02:00  INFO 5632 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-01T17:57:29.996+02:00  INFO 5632 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T17:57:31.100+02:00  WARN 5632 --- [pantoja] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-10-01T17:57:31.101+02:00  INFO 5632 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T17:57:31.104+02:00  INFO 5632 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-01T17:57:31.163+02:00  INFO 5632 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-01T17:57:31.195+02:00  INFO 5632 --- [pantoja] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-10-01T17:57:31.225+02:00 ERROR 5632 --- [pantoja] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 9191 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 9191 or configure this application to listen on another port.
-
-2025-10-01T17:57:52.550+02:00  INFO 11952 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 11952 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T17:57:52.553+02:00  INFO 11952 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T17:57:54.061+02:00  INFO 11952 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T17:57:54.173+02:00  INFO 11952 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
-2025-10-01T17:57:54.792+02:00  INFO 11952 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-10-01T17:57:54.809+02:00  INFO 11952 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T17:57:54.810+02:00  INFO 11952 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T17:57:54.864+02:00  INFO 11952 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T17:57:54.865+02:00  INFO 11952 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2261 ms
-2025-10-01T17:57:55.236+02:00  INFO 11952 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T17:57:55.306+02:00  INFO 11952 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T17:57:55.344+02:00  INFO 11952 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T17:57:55.707+02:00  INFO 11952 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T17:57:55.748+02:00  INFO 11952 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T17:57:56.287+02:00  INFO 11952 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@14b95942
-2025-10-01T17:57:56.289+02:00  INFO 11952 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T17:57:56.589+02:00  INFO 11952 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-08T04:34:24.845+02:00  INFO 404 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-08T04:34:25.115+02:00  INFO 404 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:34:25.956+02:00  INFO 404 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-08T04:34:25.968+02:00  INFO 404 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 10.506 seconds (process running for 13.125)
+2025-10-08T04:34:32.841+02:00  INFO 404 --- [pantoja] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-08T04:34:32.842+02:00  INFO 404 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-08T04:34:32.847+02:00  INFO 404 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-10-08T04:58:31.975+02:00  INFO 404 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-08T04:58:31.981+02:00  INFO 404 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-08T04:58:31.996+02:00  INFO 404 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:58:32.020+02:00  INFO 404 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-08T04:58:32.036+02:00  INFO 404 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-08T04:58:46.070+02:00  INFO 9172 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 9172 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
+2025-10-08T04:58:46.072+02:00  INFO 9172 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-08T04:58:47.986+02:00  INFO 9172 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-08T04:58:48.128+02:00  INFO 9172 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 4 JPA repository interfaces.
+2025-10-08T04:58:49.248+02:00  INFO 9172 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-08T04:58:49.307+02:00  INFO 9172 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-08T04:58:49.307+02:00  INFO 9172 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-08T04:58:49.428+02:00  INFO 9172 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-08T04:58:49.429+02:00  INFO 9172 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3248 ms
+2025-10-08T04:58:50.020+02:00  INFO 9172 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-08T04:58:50.101+02:00  INFO 9172 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-08T04:58:50.141+02:00  INFO 9172 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-08T04:58:50.599+02:00  INFO 9172 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-08T04:58:50.654+02:00  INFO 9172 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-08T04:58:51.305+02:00  INFO 9172 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@9f0fc36
+2025-10-08T04:58:51.307+02:00  INFO 9172 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-08T04:58:52.153+02:00  INFO 9172 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 21.3
@@ -172,35 +130,35 @@ Identify and stop the process that's listening on port 9191 or configure this ap
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-01T17:57:57.527+02:00  INFO 11952 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-01T17:57:57.660+02:00  INFO 11952 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T17:57:58.543+02:00  INFO 11952 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-10-01T17:57:58.552+02:00  INFO 11952 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 6.617 seconds (process running for 7.11)
-2025-10-01T17:58:11.987+02:00  INFO 11952 --- [pantoja] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-01T17:58:11.988+02:00  INFO 11952 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-01T17:58:11.988+02:00  INFO 11952 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-10-01T18:01:02.132+02:00  INFO 11952 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-01T18:01:02.139+02:00  INFO 11952 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-01T18:01:02.153+02:00  INFO 11952 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T18:01:02.164+02:00  INFO 11952 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-01T18:01:02.190+02:00  INFO 11952 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-01T18:01:15.725+02:00  INFO 8856 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 8856 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T18:01:15.728+02:00  INFO 8856 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T18:01:17.759+02:00  INFO 8856 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T18:01:17.866+02:00  INFO 8856 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 4 JPA repository interfaces.
-2025-10-01T18:01:18.764+02:00  INFO 8856 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-10-01T18:01:18.807+02:00  INFO 8856 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T18:01:18.807+02:00  INFO 8856 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T18:01:18.904+02:00  INFO 8856 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T18:01:18.905+02:00  INFO 8856 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3127 ms
-2025-10-01T18:01:19.427+02:00  INFO 8856 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T18:01:19.526+02:00  INFO 8856 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T18:01:19.574+02:00  INFO 8856 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T18:01:19.951+02:00  INFO 8856 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T18:01:19.990+02:00  INFO 8856 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T18:01:21.016+02:00  INFO 8856 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@37c2f0b4
-2025-10-01T18:01:21.018+02:00  INFO 8856 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T18:01:21.508+02:00  INFO 8856 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-08T04:58:53.654+02:00  INFO 9172 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-08T04:58:53.828+02:00  INFO 9172 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:58:54.534+02:00  INFO 9172 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-08T04:58:54.543+02:00  INFO 9172 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 9.642 seconds (process running for 11.199)
+2025-10-08T04:58:58.896+02:00  INFO 9172 --- [pantoja] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-08T04:58:58.900+02:00  INFO 9172 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-08T04:58:58.902+02:00  INFO 9172 --- [pantoja] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-08T04:59:18.401+02:00  INFO 9172 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-08T04:59:18.404+02:00  INFO 9172 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-08T04:59:18.407+02:00  INFO 9172 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T04:59:18.410+02:00  INFO 9172 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-08T04:59:18.426+02:00  INFO 9172 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-08T05:24:22.785+02:00  INFO 6128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 6128 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
+2025-10-08T05:24:22.799+02:00  INFO 6128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-10-08T05:24:25.312+02:00  INFO 6128 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-08T05:24:25.532+02:00  INFO 6128 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 4 JPA repository interfaces.
+2025-10-08T05:24:27.006+02:00  INFO 6128 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-10-08T05:24:27.082+02:00  INFO 6128 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-08T05:24:27.083+02:00  INFO 6128 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-08T05:24:27.227+02:00  INFO 6128 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-08T05:24:27.228+02:00  INFO 6128 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4345 ms
+2025-10-08T05:24:28.269+02:00  INFO 6128 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-08T05:24:28.408+02:00  INFO 6128 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-08T05:24:28.456+02:00  INFO 6128 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-08T05:24:29.123+02:00  INFO 6128 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-08T05:24:29.196+02:00  INFO 6128 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-08T05:24:29.880+02:00  INFO 6128 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@738a815c
+2025-10-08T05:24:29.882+02:00  INFO 6128 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-08T05:24:30.427+02:00  INFO 6128 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 21.3
@@ -208,51 +166,15 @@ Identify and stop the process that's listening on port 9191 or configure this ap
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-01T18:01:22.681+02:00  INFO 8856 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-01T18:01:22.849+02:00  INFO 8856 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T18:01:23.417+02:00  INFO 8856 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-10-01T18:01:23.424+02:00  INFO 8856 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 8.976 seconds (process running for 10.341)
-2025-10-01T18:01:51.126+02:00  INFO 8856 --- [pantoja] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-01T18:01:51.126+02:00  INFO 8856 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-01T18:01:51.128+02:00  INFO 8856 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-01T18:04:54.894+02:00  INFO 8856 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-01T18:04:54.899+02:00  INFO 8856 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-01T18:04:54.927+02:00  INFO 8856 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T18:04:54.952+02:00  INFO 8856 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-01T18:04:54.979+02:00  INFO 8856 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-01T18:06:51.251+02:00  INFO 10128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Starting PantojaApplication using Java 24.0.2 with PID 10128 (C:\Users\Yusaki\Documents\Nueva carpeta\target\classes started by Yusaki in C:\Users\Yusaki\Documents\Nueva carpeta)
-2025-10-01T18:06:51.254+02:00  INFO 10128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : No active profile set, falling back to 1 default profile: "default"
-2025-10-01T18:06:53.076+02:00  INFO 10128 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-01T18:06:53.226+02:00  INFO 10128 --- [pantoja] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 4 JPA repository interfaces.
-2025-10-01T18:06:54.231+02:00  INFO 10128 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2025-10-01T18:06:54.328+02:00  INFO 10128 --- [pantoja] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-01T18:06:54.328+02:00  INFO 10128 --- [pantoja] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-01T18:06:54.585+02:00  INFO 10128 --- [pantoja] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-01T18:06:54.586+02:00  INFO 10128 --- [pantoja] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3231 ms
-2025-10-01T18:06:55.329+02:00  INFO 10128 --- [pantoja] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-01T18:06:55.410+02:00  INFO 10128 --- [pantoja] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-01T18:06:55.451+02:00  INFO 10128 --- [pantoja] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-01T18:06:55.927+02:00  INFO 10128 --- [pantoja] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-01T18:06:55.967+02:00  INFO 10128 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-01T18:06:56.583+02:00  INFO 10128 --- [pantoja] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1b4a3a1
-2025-10-01T18:06:56.585+02:00  INFO 10128 --- [pantoja] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-01T18:06:57.060+02:00  INFO 10128 --- [pantoja] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 21.3
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-01T18:06:59.783+02:00  INFO 10128 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-01T18:07:00.039+02:00  INFO 10128 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T18:07:00.731+02:00  INFO 10128 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
-2025-10-01T18:07:00.744+02:00  INFO 10128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 10.873 seconds (process running for 12.309)
-2025-10-01T18:07:11.880+02:00  INFO 10128 --- [pantoja] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-01T18:07:11.880+02:00  INFO 10128 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-01T18:07:11.881+02:00  INFO 10128 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-01T18:14:11.054+02:00  INFO 10128 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-01T18:14:11.061+02:00  INFO 10128 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-01T18:14:11.130+02:00  INFO 10128 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-01T18:14:11.183+02:00  INFO 10128 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-01T18:14:11.203+02:00  INFO 10128 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-08T05:24:31.991+02:00  INFO 6128 --- [pantoja] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-08T05:24:32.278+02:00  INFO 6128 --- [pantoja] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T05:24:33.400+02:00  INFO 6128 --- [pantoja] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-10-08T05:24:33.413+02:00  INFO 6128 --- [pantoja] [main] pe.edu.upeu.pantoja.PantojaApplication   : Started PantojaApplication in 12.027 seconds (process running for 13.289)
+2025-10-08T05:24:52.485+02:00  INFO 6128 --- [pantoja] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-08T05:24:52.485+02:00  INFO 6128 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-08T05:24:52.486+02:00  INFO 6128 --- [pantoja] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-08T05:28:26.611+02:00  INFO 6128 --- [pantoja] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-08T05:28:26.614+02:00  INFO 6128 --- [pantoja] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-08T05:28:26.617+02:00  INFO 6128 --- [pantoja] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-08T05:28:26.623+02:00  INFO 6128 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-08T05:28:26.637+02:00  INFO 6128 --- [pantoja] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

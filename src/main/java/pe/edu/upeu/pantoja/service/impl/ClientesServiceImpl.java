@@ -36,6 +36,8 @@ public class ClientesServiceImpl implements ClientesService {
         try {
             Clientes clientes = clientesRepository.findById(aLong).orElseThrow(() -> new ResourceNotFoundException("Clientes no encontrada"));
             clientes.setTelefono(clientesDTO.getTelefono());
+            clientes.setDomicilio(clientesDTO.getDomicilio());
+            clientes.setRazonsocial(clientesDTO.getRazonsocial());
             Clientes clientesUpdate = clientesRepository.save(clientes);
             return clientesMapper.toDTO(clientesUpdate);
         } catch (ResourceNotFoundException e) {
